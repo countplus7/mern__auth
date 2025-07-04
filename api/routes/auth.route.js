@@ -5,7 +5,6 @@ const router = express.Router();
 
 router.post("/signup", signup);
 router.post("/signin", signin);
-router.get("/get_user", signin);
 router.post("/google", google);
 router.get("/signout", signout);
 
